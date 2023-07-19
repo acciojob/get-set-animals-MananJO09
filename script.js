@@ -1,4 +1,17 @@
 //complete this code
+class Animal {
+    constructor(species) {
+        this.species = species;
+    }
+
+    getSpecies() {
+        return this.species;
+    }
+
+    makeSound() {
+        console.log("Animal sound");
+    }
+}
 class Cat extends Animal {
     constructor(species) {
         super(species);
